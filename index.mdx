@@ -7,12 +7,7 @@ description: "Welcome to the new home for your documentation"
 
 Get your documentation site up and running in minutes.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
+<Card icon="rocket" horizontal href="/quickstart" title="Start here">
   Follow our three step quickstart guide.
 </Card>
 
@@ -21,32 +16,16 @@ Get your documentation site up and running in minutes.
 Design a docs site that looks great and empowers your users.
 
 <Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
+  <Card icon="pen-to-square" href="/development" title="Edit locally">
     Edit your docs locally and preview them in real time.
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
+  <Card icon="palette" href="/essentials/settings" title="Customize your site">
     Customize the design and colors of your site to match your brand.
   </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
+  <Card icon="map" href="/essentials/navigation" title="Set up navigation">
     Organize your docs to help users find what they need and succeed with your product.
   </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
+  <Card icon="terminal" href="/api-reference/introduction" title="API documentation">
     Auto-generate API documentation from OpenAPI specifications.
   </Card>
 </Columns>
@@ -56,42 +35,184 @@ Design a docs site that looks great and empowers your users.
 Everything you need to create world-class documentation.
 
 <Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
+  <Card icon="pen-fancy" href="/essentials/markdown" title="Write with MDX">
     Use MDX to style your docs pages.
   </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
+  <Card icon="code" href="/essentials/code" title="Code samples">
+    \<!DOCTYPE html\>
+
+    \<html\>
+
+    \<head\>
+
+    \<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"\>
+
+    \<meta name="theme-color" content="#000000"\>
+
+    \<meta name="apple-mobile-web-app-capable" content="yes"\>
+
+    \<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"\>
+
+    \<meta name="apple-mobile-web-app-title" content="Capo TTG"\>
+
+    \<title\>Capo TTG | When The Roses Wilt\</title\>
+
+    \<link rel="manifest" href="manifest.json"\>
+
+    \<style\>
+
+    body {
+
+        margin:0;
+
+        font-family: Arial, sans-serif;
+
+        background:black;
+
+        color:white;
+
+        text-align:center;
+
+    }
+
+    .header {
+
+        padding:60px 20px;
+
+        background:linear-gradient(to bottom,#200000,#000);
+
+    }
+
+    h1 {
+
+        letter-spacing:4px;
+
+    }
+
+    .card {
+
+        background:#111;
+
+        padding:20px;
+
+        margin:20px auto;
+
+        border-radius:15px;
+
+        width:90%;
+
+        max-width:420px;
+
+        box-shadow:0 0 20px rgba(180,0,0,0.5);
+
+    }
+
+    button {
+
+        background:#990000;
+
+        border:none;
+
+        padding:12px 20px;
+
+        color:white;
+
+        border-radius:25px;
+
+        margin:8px;
+
+    }
+
+    audio {
+
+        width:100%;
+
+    }
+
+    .footer {
+
+        font-size:12px;
+
+        color:#666;
+
+        padding:20px;
+
+    }
+
+    \</style\>
+
+    \</head\>
+
+    \<body\>
+
+    \<div class="header"\>
+
+    \<h1\>CAPO TTG\</h1\>
+
+    \<p\>When The Roses Wilt\</p\>
+
+    \</div\>
+
+    \<div class="card"\>
+
+    \<h2\>🎧 Featured Track\</h2\>
+
+    \<audio controls\>
+
+    \<source src="YOUR_MP3_LINK" type="audio/mpeg"\>
+
+    \</audio\>
+
+    \</div\>
+
+    \<div class="card"\>
+
+    \<h2\>📀 Stream\</h2\>
+
+    \<button onclick="window.location.href='YOUR_SPOTIFY_LINK'"\>Spotify\</button\>
+
+    \<button onclick="window.location.href='YOUR_APPLE_LINK'"\>Apple Music\</button\>
+
+    \</div\>
+
+    \<div class="card"\>
+
+    \<h2\>🛍 Merch\</h2\>
+
+    \<button onclick="window.location.href='YOUR_MERCH_LINK'"\>Shop\</button\>
+
+    \</div\>
+
+    \<div class="footer"\>
+
+    © 2026 Capo TTG
+
+    \</div\>
+
+    \<script\>
+
+    if ('serviceWorker' in navigator) {
+
+      navigator.serviceWorker.register('sw.js');
+
+    }
+
+    \</script\>
+
+    \</body\>
+
+    \</html\>
   </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
+  <Card icon="image" href="/essentials/images" title="Images">
     Display images and other media.
   </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
+  <Card icon="recycle" href="/essentials/reusable-snippets" title="Reusable snippets">
     Write once and reuse across your docs.
   </Card>
 </Columns>
 
 ## Need inspiration?
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
+<Card icon="stars" href="https://mintlify.com/customers" title="See complete examples">
   Browse our showcase of exceptional documentation sites.
 </Card>
